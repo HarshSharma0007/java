@@ -5,8 +5,10 @@ public class p025_guessRandomNumbers {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
         int guess;
+        int min = 1;
+        int max = 10;
         int attempts=0;
-        int randomNumber = random.nextInt(1,11);
+        int randomNumber = random.nextInt(min,max+1);
         System.out.println("Number Guessing Game\nGuess a number between 1-10: ");
         do{
             System.out.println("Enter your Guess");
