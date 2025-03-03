@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class p031 {
+public class p031_bankingProgram {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 
